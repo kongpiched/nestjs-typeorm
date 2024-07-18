@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  lead-management-system-db:
+    image: postgres:15
+    container_name: nestjs-typeorm-db
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=JustCarTest@12345
+    volumes:
+      - nestjs-typeorm-db:/var/lib/postgresql/data
+
+volumes:
+  nestjs-typeorm-db:
+    name: nestjs-typeorm-db
