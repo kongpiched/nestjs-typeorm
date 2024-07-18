@@ -7,7 +7,7 @@ services:
     ports:
       - 5432:5432
     environment:
-      - POSTGRES_PASSWORD=JustCarTest@12345
+      - POSTGRES_PASSWORD=Test@1234
     volumes:
       - nestjs-typeorm-db:/var/lib/postgresql/data
 
