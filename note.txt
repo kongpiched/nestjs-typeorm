@@ -1,0 +1,9 @@
+npm i -g @nestjs/cli
+nest new project-name
+pnpm i --save @nestjs/core @nestjs/common rxjs reflect-metadata
+pnpm i --save @nestjs/typeorm typeorm mysql2
+pnpm i --save @nestjs/axios axios
+pnpm i --save class-validator class-transformer
+pnpm i --save @nestjs/config
+pnpm i --save @nestjs/swagger
+pnpm i dotenv joi
